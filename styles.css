@@ -10,9 +10,8 @@ body {
     background-blend-mode: soft-light;
     background-position: center;
     background-size: 150px 150px;
-    opacity: 0.8;
+    opacity: 0.5;
 }
-
 
 .counter-container {
     text-align: center;
