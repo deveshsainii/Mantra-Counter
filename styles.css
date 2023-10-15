@@ -1,21 +1,22 @@
 body {
-    font-family: 'Noto Sans Devanagari', sans-serif; /* Using a Hindi font */
+    font-family: 'Noto Sans Devanagari', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #FFC085; /* Lighter shade of saffron */
-    background-image: url('om-symbol.svg'); /* Assuming you have an SVG of the Om symbol */
-    background-repeat: repeat; /* Repeating the Om symbol */
-    background-blend-mode: soft-light; /* Fading the Om symbol */
+    background-color: #FFC085;
+    background-image: url('om-symbol.svg');
+    background-repeat: repeat;
+    background-blend-mode: soft-light;
     background-position: center;
     background-size: 150px 150px;
-    opacity: 0.5; /* Decreasing the opacity of the Om symbol */
+    opacity: 0.8;
 }
+
 
 .counter-container {
     text-align: center;
-    z-index: 1; /* Ensuring the counter is above the background */
+    z-index: 1;
     position: relative;
 }
 
@@ -26,34 +27,42 @@ body {
     border-radius: 50%;
     cursor: pointer;
     user-select: none;
+    margin: 15px;
 }
 
 .bubble.big {
-    width: 70px;
-    height: 70px;
-    line-height: 70px;
-    font-size: 28px;
-    margin-bottom: 10px;
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    font-size: 40px;
+    margin-bottom: 20px;
 }
 
 .bubble.small {
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    font-size: 20px;
-    margin-top: 10px;
-}
-
-.count-display {
-    font-size: 32px;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    font-size: 30px;
     margin-top: 20px;
 }
 
+.count-display {
+    font-size: 36px;
+    margin-top: 25px;
+}
+
+.mala-display {
+    font-size: 24px;
+    margin-top: 15px;
+    color: #2c3e50;
+}
+
 button {
-    padding: 10px 20px;
+    padding: 12px 24px;
     background-color: #e74c3c;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-size: 18px;
 }
